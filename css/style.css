@@ -1,0 +1,121 @@
+body{
+    background-color: rgba(166, 158, 235, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(red, green, blue, alpha);
+}
+.container .left_side
+{
+    position: relative;
+    background-color: #003147;
+    padding: 20px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgba(232, 226, 236, 0.76);
+}
+.profileText h4
+{
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.7em;
+}
+.profileText h4 span
+{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+  color: #fff;  
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.contactInfo ul 
+{
+position: relative;
+}
+.contactInfo  ul.text 
+{
+    position: relative;
+    list-style:none ;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aquamarine;
+}
+.contactInfo ul span 
+{
+    color: #3dc3d4;
+}
+.contactInfocareer_objective li span
+{
+    color: #3dc3d4;
+}
+.contactInfo.technical-skills li span
+{
+    color: #3dc3d4;
+}
+
+.container .right_side
+{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.title2
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: left;
+padding-bottom: 1px;
+border-bottom: 2px solid #003147
+}
